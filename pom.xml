@@ -74,7 +74,7 @@
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
         <maven-war-plugin.version>3.3.1</maven-war-plugin.version>
-        <jacoco-maven-plugin>0.8.6</jacoco-maven-plugin>
+        <jacoco-maven-plugin>0.8.7</jacoco-maven-plugin>
 
         <!-- Docker image -->
         <docker.jib-maven-plugin.version>2.6.0</docker.jib-maven-plugin.version>
@@ -562,10 +562,8 @@
     <snapshotRepository>
         <id>nexus-snapshots</id>
         <name>maven-snapshots</name>
-        <url>http://54.71.121.121:8081/repository/maven-snapshots/</url>
+        <url>http://your-nexus-server-url/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
-
-    
 
 </project>
