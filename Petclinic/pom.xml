@@ -553,4 +553,18 @@
         </repository>
     </repositories>
 
+    <distributionManagement>
+    <!-- Release Repository -->
+    <repository>
+        <id>maven-releases</id>
+        <url>http://54.71.121.121:8081/repository/maven-releases/</url>
+    </repository>
+    
+    <!-- Snapshot Repository -->
+    <snapshotRepository>
+        <id>maven-snapshots</id>
+        <url>http://54.71.121.121:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+
 </project>
