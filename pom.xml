@@ -41,6 +41,17 @@
 		</dependency>
 	</dependencies>
 
+	<distributionManagement>
+        <repository>
+            <id>nexus-releases</id> <!-- Nexus repository id -->
+            <url>http://your-nexus-repo-url/repository/maven-releases/</url> <!-- Nexus repository URL -->
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id> <!-- Nexus snapshot repository id -->
+            <url>http://your-nexus-repo-url/repository/maven-snapshots/</url> <!-- Nexus snapshot repository URL -->
+        </snapshotRepository>
+    </distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
