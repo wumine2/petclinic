@@ -562,7 +562,7 @@
     <snapshotRepository>
         <id>nexus-snapshots</id>
         <name>maven-snapshots</name>
-        <url>http://your-nexus-server-url/repository/maven-snapshots/</url>
+        <url>http://54.71.121.121:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 
