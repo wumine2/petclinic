@@ -554,17 +554,16 @@
     </repositories>
 
     <distributionManagement>
-    <!-- Release Repository -->
     <repository>
-        <id>maven-releases</id>
-        <url>http://54.71.121.121:8081/repository/maven-releases/</url>
+      <id>nexus</id>
+      <name>My Nexus Repository</name>
+      <url>http://your-nexus-server-url/repository/maven-releases/</url>
     </repository>
-    
-    <!-- Snapshot Repository -->
     <snapshotRepository>
-        <id>maven-snapshots</id>
-        <url>http://54.71.121.121:8081/repository/maven-snapshots/</url>
+      <id>nexus</id>
+      <name>My Nexus Snapshot Repository</name>
+      <url>http://your-nexus-server-url/repository/maven-snapshots/</url>
     </snapshotRepository>
-</distributionManagement>
+  </distributionManagement>
 
 </project>
